@@ -7,13 +7,13 @@ export default defineConfig([
   {
     ignores: ['eslint.config.js'],
   },
-  { 
+  {
     files: ['**/*.js'],
     plugins: { js },
     extends: ['js/recommended'],
     languageOptions: {
       globals: globals.browser,
-      sourceType: 'script'
+      sourceType: 'script',
     },
     rules: {
       'no-var': 'error',
